@@ -13,9 +13,9 @@ class UserDetail extends Component {
         return (
             <div>
                 <img src={this.props.user.thumbnail} />
-                <h2>{this.props.user.first} {this.props.user.last}</h2>
-                <h3>Age: {this.props.user.age}</h3>
-                <h3>Description: {this.props.user.description}</h3>
+                <h2>{this.props.user.name}</h2>
+                <h3>Phone: {this.props.user.phone}</h3>
+                <h3>Notes: {this.props.user.notes}</h3>
             </div>
         );
     }
